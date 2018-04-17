@@ -16,3 +16,11 @@ describe('minus()', function() {
     minus.should.be.a('function');
   });
 });
+
+describe('times()', function() {
+  it('should multiply two numbers together', function(){
+    var product = times(3,4);
+    expect(product).to.equal(12);
+    times.should.be.a('function');
+  });
+});
