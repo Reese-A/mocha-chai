@@ -8,3 +8,11 @@ describe('add()', function () {
     add.should.be.a('function');
   });
 });
+
+describe('minus()', function() {
+  it('should subtract the second number from the first number', function(){
+    var difference = minus(4, 2);
+    expect(difference).to.equal(2);
+    minus.should.be.a('function');
+  });
+});
