@@ -24,3 +24,11 @@ describe('times()', function() {
     times.should.be.a('function');
   });
 });
+
+describe('divide()', function () {
+  it('should divide the second number from the first number and return the quotient', function () {
+    var quotient = divide(6,3);
+    expect(quotient).to.equal(2);
+    divide.should.be.a('function');
+  });
+});
